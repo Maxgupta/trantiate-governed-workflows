@@ -1,0 +1,39 @@
+{
+  "illustrative": true,
+  "work_order_id": "WO-EXAMPLE-001",
+  "record_id": "WO-EXAMPLE-001",
+  "objective": "Propose one link from a documentation page to its companion guide.",
+  "seer_worker": "Human example sponsor",
+  "maker_worker": "AI example Maker",
+  "checker_worker": "Separate AI example Checker",
+  "buyer_worker": "Human example Buyer",
+  "allowed_actions": [
+    "Read assigned public documentation",
+    "Propose a documentation-only diff"
+  ],
+  "prohibited_actions": [
+    "Merge",
+    "Deploy",
+    "Change unrelated files",
+    "Add unsupported claims"
+  ],
+  "acceptance_criteria": [
+    {
+      "id": "AC-01",
+      "criterion": "Exactly one intended documentation link is proposed."
+    },
+    {
+      "id": "AC-02",
+      "criterion": "Link target is reachable."
+    },
+    {
+      "id": "AC-03",
+      "criterion": "No unrelated changes or new unsupported claims."
+    }
+  ],
+  "escalation_triggers": [
+    "Objective or authority is unclear",
+    "Required evidence cannot be obtained",
+    "Work requires actions outside the mandate"
+  ]
+}

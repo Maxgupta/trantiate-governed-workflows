@@ -1,0 +1,29 @@
+{
+  "illustrative": true,
+  "work_order_id": "WO-EXAMPLE-001",
+  "record_id": "CHECKER-EXAMPLE-001",
+  "maker_record_id": "MAKER-EXAMPLE-001",
+  "proposal_id": "PROPOSAL-EXAMPLE-001",
+  "illustrative_verdict": "PASS",
+  "criterion_evaluations": [
+    {
+      "criterion_id": "AC-01",
+      "illustrative_result": "PASS"
+    },
+    {
+      "criterion_id": "AC-02",
+      "illustrative_result": "PASS"
+    },
+    {
+      "criterion_id": "AC-03",
+      "illustrative_result": "PASS"
+    }
+  ],
+  "unresolved_findings": [],
+  "checks_actually_executed": false,
+  "independence_assessment": "Not established by this fictional example; separate instances alone do not prove independence.",
+  "limitations": [
+    "No real diff or target check accompanies this record.",
+    "This is not implementation evidence."
+  ]
+}

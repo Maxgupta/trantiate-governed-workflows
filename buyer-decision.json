@@ -1,0 +1,13 @@
+{
+  "illustrative": true,
+  "work_order_id": "WO-EXAMPLE-001",
+  "record_id": "BUYER-EXAMPLE-001",
+  "checker_record_id": "CHECKER-EXAMPLE-001",
+  "proposal_id": "PROPOSAL-EXAMPLE-001",
+  "illustrative_decision": "ACCEPT",
+  "decision_maker": "Human example Buyer",
+  "rationale": "In the fictional scenario, all criteria pass and no findings remain.",
+  "actual_human_acceptance_occurred": false,
+  "release_authorized": false,
+  "outcome_verified": false
+}

@@ -1,0 +1,23 @@
+{
+  "illustrative": true,
+  "work_order_id": "WO-EXAMPLE-001",
+  "record_id": "MAKER-EXAMPLE-001",
+  "proposal_id": "PROPOSAL-EXAMPLE-001",
+  "proposed_change": "Add one companion-guide link to the assigned documentation page.",
+  "evidence_assertions": [
+    {
+      "criterion_id": "AC-01",
+      "assertion": "Illustrative diff contains one link."
+    },
+    {
+      "criterion_id": "AC-02",
+      "assertion": "Illustrative target check reports success."
+    },
+    {
+      "criterion_id": "AC-03",
+      "assertion": "Illustrative scope check reports no unrelated changes."
+    }
+  ],
+  "checks_actually_executed": false,
+  "merge_or_deploy_performed": false
+}
